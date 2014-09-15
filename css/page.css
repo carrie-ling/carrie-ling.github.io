@@ -1,3 +1,4 @@
+header{top: 0px; width: 100%; position: fixed;}
 nav.topnav,.sublogo{display: block;}
 .sublogo{ width: 85px; height: 53px; background: url("img/sublogo.png"); margin:20px;}
 .topnav a{ margin-top: 25px; display:block; float:left; text-align:center; margin-right:53px;color: #fff; font-size: 14px;}
