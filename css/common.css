@@ -1,0 +1,14 @@
+body{ font-family: "微软雅黑";}
+.header,.content,footer p,.homenav{ width: 1180px; margin: 0px auto; }
+
+/*common end*/
+header{ z-index: 10000; background: url("img/headbg.gif") no-repeat center;}
+.header{ height: 94px; width: 1180px; margin: 0px auto; clear: both;}
+.contwarp{ width: 100%;}
+nav.topnav{ float: left;}
+.sublogo{ float: left;}
+.sublogo span{ display: none;}
+.qq{ width:84px; height:34px; background:url("img/qq.png");margin-top: 30px; margin-right: 15%; float: right;}
+/*主体*/
+
+/*底部*/

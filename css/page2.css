@@ -1,0 +1,52 @@
+/*主体*/
+.contwarp{ background:url("img/page2bg.png") #fff;}
+.content{ background: #fff;}
+/*左侧主体*/
+.dwenmain{ width: 860px; border-right: 1px solid #d5d5d5; }
+.top{ width: 40px; height: 40px; background: url("img/top.gif") no-repeat; position: fixed; right: 100px; bottom: 350px;}
+.texttitle{ width: 100%; background: url("img/titlebg.gif") #eeebe9;}
+.titletop,.titlebottom{ width: 690px; height: 36px; padding: 20px 0px; margin: 0px auto;}
+.titletop{border-bottom: 1px dotted #d5d5d5; }
+.titletop h2{float: left; font-size: 30px; color: #4d4d4d;}
+.titletop .search{ float: right; height: 28px; border: 1px solid #c7c7c7; background: #fff; border-radius: 3px;}
+.titletop .search input{ height: 28px; border: none; padding: 0px 5px; float: left;}
+.titletop .search button{ width: 18px; height: 18px; margin-top: 5px; margin-right: 5px; background:url("img/seach.jpg"); border-radius: 3px;border: none; float: left;}
+.titlebottom h3{color: #4d4d4d; font-size: 20px;}
+.titlebottom h3 span{ color: #0078c7;}
+
+.textlist{ width: 90%; min-height: 500px; margin: 0 auto; padding: 20px 0;border-bottom: 1px solid #c7c7c7;}
+.textlist li{ height: 160px;min-height: 80px; margin-top: 15px;  border-bottom: 1px dotted #c7c7c7; clear: both;}
+.textlist li .textcont{ clear: both;height: 108px; overflow: hidden;}
+.textlist li .textcont img{ float: left;}
+.textlist li .textcont p{ padding-left: 95px;}
+.textlist li .textcont p a{ color: #006ab6;}
+.textlist li .textcont p{ font-size: 14px; line-height: 20px;}
+a.titletext{ font-size: 16px; line-height: 25px; display: block;}
+
+.textdes{ margin-top: 20px;}
+.textdes .date{ color: #759aad;background: url(img/date.gif) no-repeat; padding-left: 15px;}
+.textdes a{ padding: 0 8px;color: #006ab6;}
+
+.rightbar{ border-top:1px solid #d5d5d5;}
+.ad264{ width: 264px; height: 110px; overflow: hidden; margin: 10px auto;}
+/*右侧侧边栏*/
+.rightbar{width: 318px; }
+.lefttextli{ width: 250px; margin: 0px auto; font-size: 14px; background: #fcfcfc; padding: 5px 10px; overflow: hidden;}
+.lefttextli li{list-style:square; list-style-position: inside; line-height: 25px;}
+.lefttextli li a{ color: #2d64b3;}
+.lefttextli li.leftli-title{list-style:none;}
+
+.links{ width: 264px; margin: 10px auto;line-height: 25px;font-size: 14px;}
+.links p{  margin-bottom: 10px;}
+.links li{ float: left; margin-right: 10px; margin-bottom: 10px;}
+.links a{ color: #888888;}
+.links a:hover{color: #2d64b3;}
+
+.more{ width: 1180px;  margin: 10px auto;}
+.moretitle{height: 80px; background: url("img/line.png") repeat-x #fff;}
+.moretitle img{ margin-top: 15px;}
+
+.adbanner{ height: 90px; width: 1180px; margin: 0px auto; text-align: center;}
+/*技术内页主体部分*/
+.textcontwarp .titletop, .textcontwarp  .titlebottom{  width: 95%;}
+.textcont{ margin: 5px 15px;}
