@@ -421,10 +421,3 @@ em.square{ width:0; overflow:hidden; border-right:solid 5px #bababa; border-left
 .h284{height:284px;}
 /*.left_bar li ul.show{ display:block;}*/
 
-
-
-@import url("common.css");
-@import url("home.css");
-@import url("page.css");
-@import url("page2.css");
-@import url("style.css");
