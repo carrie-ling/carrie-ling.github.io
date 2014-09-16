@@ -10,8 +10,8 @@ layout: default
             {% for page in site.pages %}
             {% if page.title %}
             <a href="#"><i class="ico-home"></i>{{ page.title }}</a>
-            {% for page in site.pages %}
-            {% if page.title %}
+            {% endif %}
+            {% endfor %}
         </nav>
     </div>
 </div>
