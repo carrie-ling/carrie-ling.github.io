@@ -4,6 +4,7 @@ body{ font-family: "微软雅黑";}
 header{ z-index: 10000; background: url("img/headbg.gif") no-repeat center;}
 .header{ height: 94px; width: 1180px; margin: 0px auto; clear: both;}
 .contwarp{ width: 100%;}
+.content{min-height: 650px; }
 nav.topnav{ float: left;}
 .sublogo{ float: left;}
 .sublogo span{ display: none;}

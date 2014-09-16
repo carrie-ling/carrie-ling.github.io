@@ -6,7 +6,7 @@ header{position: inherit;}
 .homenav a i{ display: block; width: 64px; height: 67px; margin: 36px auto 5px; background: url("img/ico-home.gif");}
 /*主体*/
 .contwarp{ padding-top:104px;background: url("img/homebg.gif") center 0 no-repeat #389fd2;}
-.content{min-height: 650px; background: none;}
+.content{background: none;}
 
 /*底部*/
 footer{ height: 100px; padding-top: 30px; }
