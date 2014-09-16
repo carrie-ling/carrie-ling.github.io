@@ -1,6 +1,5 @@
 body{ font-family: "微软雅黑";}
-.header,.content,footer p,.homenav{ width: 1180px; margin: 0px auto; }
-
+.header,.content,.homenav{ width: 1180px; margin: 0px auto; }
 /*common end*/
 header{ z-index: 10000; background: url("img/headbg.gif") no-repeat center;}
 .header{ height: 94px; width: 1180px; margin: 0px auto; clear: both;}
