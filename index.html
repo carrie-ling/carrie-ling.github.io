@@ -9,7 +9,7 @@ layout: default
         <nav class="homenav">
             {% for page in site.pages %}
             {% if page.title %}
-            <a href="{{ post.url | prepend: site.baseurl }}"><i class="ico-home"></i>{{ page.title }}</a>
+            <a href="{{ page.url | prepend: site.baseurl }}"><i class="ico-home"></i>{{ page.title }}</a>
             {% endif %}
             {% endfor %}
         </nav>
