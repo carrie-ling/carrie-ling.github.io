@@ -1,21 +1,100 @@
-<header class="site-header">
+<header>
+    <div class="clear header">
+        <h1 class="sublogo"><a href="#"><span>多闻</span></a></h1>
+        <nav class="topnav">
+            {% for page in site.pages %}
+            {% if page.title %}
+            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}"><span>{{ page.title }}</span><span class="naven">{{ page.title }}</span></a>
+            {% endif %}
+            {% endfor %}
+        </nav>
+        <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=380979897&amp;site=qq&amp;menu=yes" target="_blank" class="qq"></a>
+    </div>
+    <div id="sooptions" style="top: 90px; position: fixed;">
+        <!--subnav start-->
+        <div class="automw">
+            <div id="socontent" class="autocw">
+                <div class="sotj soitem soone" id="sofid" data-name="fid">
+                    <div class="soitemlabel"><span class="soitemlabeltxt">行业</span><span class="yy-icon yy-soi"></span>
+                    </div>
+                    <div class="soitemcontent">
+                        <ul>
+                            <li><a href="http://www.duowen.org.cn/list/" data-value="0" class="active">行业</a></li>
+                            <li><a href="http://www.duowen.org.cn/list/?fid=1" data-value="1">网页</a>
 
-  <div class="wrapper">
+                                <div class="soitemcontent">
+                                    <ul>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=2" data-value="2">企业集团</a></li>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=25" data-value="25">专题/Banner</a>
+                                        </li>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=3" data-value="3">门户电商</a></li>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=4" data-value="4">游戏网页</a></li>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=5" data-value="5">汽车/车类</a></li>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=6" data-value="6">服装服饰</a></li>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=7" data-value="7">餐饮美食</a></li>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=11" data-value="11">其他网页</a></li>
+                                    </ul>
+                                    <div class="clear"></div>
+                                </div>
+                            </li>
+                            <li><a href="http://www.duowen.org.cn/list/?fid=12" data-value="12">GUI</a>
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+                                <div class="soitemcontent">
+                                    <ul>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=13" data-value="13">图标Icon</a></li>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=14" data-value="14">移动应用</a></li>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=17" data-value="17">界面设计</a></li>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=16" data-value="16">原型/UE</a></li>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=29" data-value="29">UI动效</a></li>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=18" data-value="18">其他GUI</a></li>
+                                    </ul>
+                                    <div class="clear"></div>
+                                </div>
+                            </li>
+                            <li><a href="http://www.duowen.org.cn/list/?fid=19" data-value="19">平面</a>
 
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
+                                <div class="soitemcontent">
+                                    <ul>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=20" data-value="20">VI/CI</a></li>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=21" data-value="21">LOGO</a></li>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=22" data-value="22">字体设计</a></li>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=23" data-value="23">海报设计</a></li>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=30" data-value="30">图形设计</a></li>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=28" data-value="28">包装</a></li>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=24" data-value="24">其他平面</a></li>
+                                    </ul>
+                                    <div class="clear"></div>
+                                </div>
+                            </li>
+                            <li><a href="http://www.duowen.org.cn/list/?fid=26" data-value="26">其他</a>
 
+                                <div class="soitemcontent">
+                                    <ul>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=31" data-value="31">插画</a></li>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=32" data-value="32">三维</a></li>
+                                        <li><a href="http://www.duowen.org.cn/list/?fid=27" data-value="27">其他</a></li>
+                                    </ul>
+                                    <div class="clear"></div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="sotj soitem soone" id="soowner" data-name="owner">
+                    <div class="soitemlabel"><span class="yy-icon yy-yc active"></span><span
+                            class="soitemlabeltxt">所有者</span><span class="yy-icon yy-soi"></span></div>
+                    <div class="soitemcontent">
+                        <ul>
+                            <li><a href="http://www.duowen.org.cn/list/?owner=1" data-value="1">原创</a></li>
+                            <li><a href="http://www.duowen.org.cn/list/?owner=2" data-value="2">转载</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
 
-    </nav>
-
-  </div>
-
+            </div>
+            <!--subnav end-->
+        </div>
+    </div>
 </header>
