@@ -6,7 +6,7 @@ permalink: web/company/company1/
 ---
 
 
-![有帮助的截图]({{ site.url }}/assets/web/company/images1.jpg)
+![有帮助的截图]({{ site.url }}/assets/images1.jpg)
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
