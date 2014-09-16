@@ -2,18 +2,17 @@
 layout: default
 ---
 <link rel="stylesheet" href="{{ "/css/home.css" | prepend: site.baseurl }}">
-        方式的方式的发生的方式的
+
 <div class="contwarp">
     <div class="content">
         <a class="homelogo" href="#">&nbsp;</a>
         <nav class="homenav">
-            {% for page in site.pages %}
-            {% if page.title %}
-            <a href="#"><i class="ico-home"></i>{{ page.title }}</a>
-            {% for page in site.pages %}
-            {% if page.title %}
+            <a href="#"><span>多闻首页</span><span class="naven">Home</span></a>
+            <a href="#"><span>网页</span><span class="naven">Webpage</span></a>
+            <a href="#"><span>前端技术</span><span class="naven">Technology</span></a>
+            <a href="#"><span>关于</span><span class="naven">About</span></a>
+            <a href="#"><span>网络收藏</span><span class="naven">Collection</span></a>
+            <a href="#"><span>资源下载</span><span class="naven">Download</span></a>
         </nav>
-
-
     </div>
 </div>
