@@ -2,11 +2,12 @@
     <div class="clear header">
         <h1 class="sublogo"><a href="#"><span>多闻</span></a></h1>
         <nav class="topnav">
-            {% for page in site.pages %}
-            {% if page.title %}
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}"><span>{{ page.title }}</span><span class="naven">{{ page.title }}</span></a>
-            {% endif %}
-            {% endfor %}
+            <a href="{{ site.baseurl }}"><span>多闻首页</span><span class="naven">Home</span></a>
+            <a href="/web/"><span>网页</span><span class="naven">Webpage</span></a>
+            <a href="#"><span>前端技术</span><span class="naven">Technology</span></a>
+            <a href="#"><span>关于</span><span class="naven">About</span></a>
+            <a href="#"><span>网络收藏</span><span class="naven">Collection</span></a>
+            <a href="#"><span>资源下载</span><span class="naven">Download</span></a>
         </nav>
         <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=380979897&amp;site=qq&amp;menu=yes" target="_blank" class="qq"></a>
     </div>
