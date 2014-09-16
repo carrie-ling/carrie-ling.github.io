@@ -20,16 +20,11 @@
                     </div>
                     <div class="soitemcontent">
                         <ul>
-                            <li><a href="http://www.duowen.org.cn/list/?fid=1" data-value="1">企业集团</a>
+                            <li><a href="{{ site.url }}/web/company/" data-value="1">企业集团</a>
 
                                 <div class="soitemcontent">
                                     <ul>
-                                        {% for imglist in site.pages %}
-                                        {% if imglist.title %}
-                                            <li><a href="http://www.duowen.org.cn/list/?fid=2" imglist.data-value>{{ imglist.title }}</a></li>
-                                        {% endif %}
-                                        {% endfor %}
-                                        
+                                        <li><a href="{{ site.url }}/web/company/company1.html" data-value="2">企业1</a></li>
                                     </ul>
                                     <div class="clear"></div>
                                 </div>
