@@ -8,7 +8,7 @@ layout: default
         <a class="homelogo" href="#">&nbsp;</a>
         <nav class="homenav">
             <a href="{{ site.baseurl }}"><i class="ico-home"></i>多闻首页</a>
-            {% for page in site.pages %}
+            {% for imglist in site.pages %}
             {% if page.title %}
             <a href="{{ page.url | prepend: site.baseurl }}"><i class="ico-home"></i>{{ page.title }}</a>
             {% endif %}
