@@ -2,15 +2,4 @@
 layout: default
 ---
 <link rel="stylesheet" href="{{ "/css/home.css" | prepend: site.baseurl }}">
-<div class="contwarp">
-    <div class="content">
-        <a class="homelogo" href="#">&nbsp;</a>
-        <nav class="homenav">
-            {% for page in site.pages %}
-            {% if page.title %}
-                <a href="#"><i class="ico-home"></i>{{ page.title }}</a>
-            {% for page in site.pages %}
-            {% if page.title %}
-        </nav>
-    </div>
-</div>
+
