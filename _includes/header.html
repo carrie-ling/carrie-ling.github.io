@@ -20,20 +20,16 @@
                     </div>
                     <div class="soitemcontent">
                         <ul>
-                            <li><a href="http://www.duowen.org.cn/list/" data-value="0" class="active">行业</a></li>
-                            <li><a href="http://www.duowen.org.cn/list/?fid=1" data-value="1">网页</a>
+                            <li><a href="http://www.duowen.org.cn/list/?fid=1" data-value="1">企业集团</a>
 
                                 <div class="soitemcontent">
                                     <ul>
-                                        <li><a href="http://www.duowen.org.cn/list/?fid=2" data-value="2">企业集团</a></li>
-                                        <li><a href="http://www.duowen.org.cn/list/?fid=25" data-value="25">专题/Banner</a>
-                                        </li>
-                                        <li><a href="http://www.duowen.org.cn/list/?fid=3" data-value="3">门户电商</a></li>
-                                        <li><a href="http://www.duowen.org.cn/list/?fid=4" data-value="4">游戏网页</a></li>
-                                        <li><a href="http://www.duowen.org.cn/list/?fid=5" data-value="5">汽车/车类</a></li>
-                                        <li><a href="http://www.duowen.org.cn/list/?fid=6" data-value="6">服装服饰</a></li>
-                                        <li><a href="http://www.duowen.org.cn/list/?fid=7" data-value="7">餐饮美食</a></li>
-                                        <li><a href="http://www.duowen.org.cn/list/?fid=11" data-value="11">其他网页</a></li>
+                                        {% for imglist in site.pages %}
+                                        {% if imglist.title %}
+                                            <li><a href="http://www.duowen.org.cn/list/?fid=2" imglist.data-value>{{ imglist.title }}</a></li>
+                                        {% endif %}
+                                        {% endfor %}
+                                        
                                     </ul>
                                     <div class="clear"></div>
                                 </div>
