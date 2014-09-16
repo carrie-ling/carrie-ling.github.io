@@ -2,23 +2,14 @@
 layout: default
 ---
 <link rel="stylesheet" href="{{ "/css/page.css" | prepend: site.baseurl }}">
-<div class="contwarp">
+<div class="contwarp webcont">
     <div class="content clear">
-       {{content}}
-    </div>
-    <div class="pages">
-        <a class="pageprev" href="http://www.uehtml.com/?page=1">
-            <span class="yy-icon yy-pp"></span>
-        </a>
-        <a href="http://www.uehtml.com/?page=1">1</a>
-        <a class="pageactive" href="http://www.uehtml.com/?page=2">2</a>
-        <a href="http://www.uehtml.com/?page=3">3</a>
-        <a href="http://www.uehtml.com/?page=4">4</a>
-        <a href="http://www.uehtml.com/?page=5">5</a>
-        <span>...</span>
-        <a href="http://www.uehtml.com/?page=136">136</a>
-        <a class="pagenext" href="http://www.uehtml.com/?page=3">
-            <span class="yy-icon yy-pp yy-rotate"></span>
-        </a>
+        <h3 class="websubtitle">
+            {{ page.title }}
+            <span>{{ page.date }}</span>
+        </h3>
+        <div class="websubcont">
+            {{content}}
+        </div>
     </div>
 </div>

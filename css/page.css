@@ -8,6 +8,7 @@ header{top: 0px; width: 100%; position: fixed;}
 /*主体*/
 .contwarp{ padding-top: 164px; background: #efeff3;}
 .content{background: none;}
+.webcont .content{ background: #fff;}
 .pages{width: 1180px; margin: 15px auto;}
 /*底部*/
 footer{ background: #031523; }
