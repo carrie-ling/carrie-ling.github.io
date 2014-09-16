@@ -1,26 +1,16 @@
 ---
 layout: default
 ---
-<h1 class="page-heading">pages</h1>
-<div class="home">
-    <div class="trigger">
-        {% for page in site.pages %}
-        {% if page.title %}
-             <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endif %}
-        {% endfor %}
+<link rel="stylesheet" href="{{ "/css/home.css" | prepend: site.baseurl }}">
+<div class="contwarp">
+    <div class="content">
+        <a class="homelogo" href="#">&nbsp;</a>
+        <nav class="homenav">
+            {% for page in site.pages %}
+            {% if page.title %}
+                <a href="#"><i class="ico-home"></i>{{ page.title }}</a>
+            {% for page in site.pages %}
+            {% if page.title %}
+        </nav>
     </div>
-    <h1 class="page-heading">Posts</h1>
-
-    <ul class="post-list">
-        {% for post in site.posts %}
-        <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-            <h2>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h2>
-        </li>
-        {% endfor %}
-    </ul>
 </div>
