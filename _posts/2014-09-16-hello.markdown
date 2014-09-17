@@ -63,12 +63,11 @@ DOCUMENT_TYPE_NODE | 等同于DocumentType.name |10
 
 以document节点为例，它的nodeName属性等于#document，nodeType属性等于9。
 
-```javascript
+	javascript
+	
+	document.nodeName // "#document"
+	document.nodeType // 9
 
-document.nodeName // "#document"
-document.nodeType // 9
-
-```
 
 通常来说，使用nodeType属性确定一个节点的类型，比较方便。
 
@@ -752,7 +751,6 @@ document.queryselector('ul').(docFrag.cloneNode(true));
 
 {% endhighlight %}
 
-## 参考链接
 
 - Louis Lazaris, [Thinking Inside The Box With Vanilla JavaScript](http://coding.smashingmagazine.com/2013/10/06/inside-the-box-with-vanilla-javascript/)
 - David Walsh, [HTML5 classList API](http://davidwalsh.name/classlist)
