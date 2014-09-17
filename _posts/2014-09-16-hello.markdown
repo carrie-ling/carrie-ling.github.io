@@ -1,9 +1,10 @@
 ---
-layout: postcss
+layout: post
 title:  "hello!"
 date:   2014-09-16 17:46:13
 categories: jekyll update
 ---
+
 关于css的文本
 
 
