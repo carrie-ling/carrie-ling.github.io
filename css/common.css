@@ -1,8 +1,13 @@
 body{ font-family: "微软雅黑";}
 .header,.content,.homenav{ width: 1180px; margin: 0px auto; }
 /*common end*/
-header{ z-index: 10000; background: url("img/headbg.gif") no-repeat center;}
+header{ z-index: 10000; background: url("img/headbg.gif") no-repeat center;top: 0px; width: 100%; position: fixed;}
 .header{ height: 94px; width: 1180px; margin: 0px auto; clear: both;}
+.sublogo{ width: 85px; height: 53px; background: url("img/sublogo.png"); margin:20px;}
+.topnav a{ margin-top: 25px; display:block; float:left; text-align:center; margin-right:53px;color: #fff; font-size: 14px;}
+.topnav a span{ display: block; }
+.topnav a span.naven{ font-size: 12px; font-family: Arial;color: #c1c1c1;}
+.subnav{ display: block; width: 100%; height: 60px; background: #f6f7f9; box-shadow: 2px 2px 2px #000;}
 .contwarp{ width: 100%;}
 .content{min-height: 650px; }
 nav.topnav{ float: left;}
