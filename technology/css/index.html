@@ -1,0 +1,16 @@
+---
+layout: postlist
+title: 所有css文档
+permalink: technology/css/
+
+---
+<h1>css文档</h1>
+{% for postcss in site.posts %}
+
+<span class="post-meta">{{ postcss.date | date: "%b %-d, %Y" }}</span>
+
+<h2>
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ postcss.title }}</a>
+</h2>
+
+{% endfor %}
