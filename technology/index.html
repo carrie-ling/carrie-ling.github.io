@@ -35,8 +35,7 @@ layout: default
             </div>
 
             <ul class="textlist">
-                <li>js文章</li>
-                {% for post in site.tags.postjs %}
+                {% for post in site.posts %}
                 <li>
                     <div class="textcont clear">
                         <img  width="80" height="80" src="{{ base.url }}/asset/images/textico.gif" />
@@ -61,58 +60,7 @@ layout: default
                     </div>
                 </li>
                 {% endfor %}
-                <li>jquery文章</li>
-                {% for post in site.tags.postjquery %}
-                <li>
-                    <div class="textcont clear">
-                        <img  width="80" height="80" src="{{ base.url }}/asset/images/textico.gif" />
-                        <p>
-                            <a class="titletext" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                <span>
-                    {{ post.categories }}
-                </span>
-                        </p>
-                    </div>
-                    <div class="textdes clear">
-                        <p class="fl">
-                            <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
-                            <span>阅读：(5465465)</span>
-                        </p>
-                        <p class="fr">
-                            <a href="#">转载</a>|
-                            <a href="#">评论</a>|
-                            <a href="#">收藏</a>
-                        </p>
 
-                    </div>
-                </li>
-                {% endfor %}
-                <li><h3>css文章</h3></li>
-                {% for post in site.tags.postcss %}
-                <li>
-                    <div class="textcont clear">
-                        <img  width="80" height="80" src="{{ base.url }}/asset/images/textico.gif" />
-                        <p>
-                            <a class="titletext" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                <span>
-                    {{ post.categories }}
-                </span>
-                        </p>
-                    </div>
-                    <div class="textdes clear">
-                        <p class="fl">
-                            <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
-                            <span>阅读：(5465465)</span>
-                        </p>
-                        <p class="fr">
-                            <a href="#">转载</a>|
-                            <a href="#">评论</a>|
-                            <a href="#">收藏</a>
-                        </p>
-
-                    </div>
-                </li>
-                {% endfor %}
             </ul>
             <div class="pages ml30  mt10 mb10">
                 <a class="pageprev" href="http://www.duowen.org.cn/?page=1"><span class="yy-icon yy-pp"></span></a>
