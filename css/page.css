@@ -9,11 +9,12 @@ header{top: 0px; width: 100%; position: fixed;}
 .contwarp{ padding-top: 164px; background: #efeff3;}
 .content{background: none;}
 .webcont .content{ background: #fff;}
-.websubtitle{ height: 50px;}
-.websubtitle h3,.price{ font-size: 24px; color: #8c8c8c; font-weight: 500;}
+.websubtitle{ height: 60px;padding: 15px 20px;}
+.websubtitle h3,.price{ font-size: 24px;  font-weight: 500;}
+.websubtitle h3{color: #8c8c8c;}
 .price{ code:#70ca10;}
 .websubtitle h3 span,.price span{ font-size: 14px; font-weight: normal; line-height: 25px;}
 .websubtitle h3 span{display: block;}
-.des{ height: 60px; color: #d86b01; line-height: 60px;}
+.des{ height: 60px; color: #d86b01; padding-left: 20px;}
 .pages{width: 1180px; margin: 15px auto;}
 
