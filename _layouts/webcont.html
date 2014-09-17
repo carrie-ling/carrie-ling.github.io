@@ -4,10 +4,11 @@ layout: default
 <link rel="stylesheet" href="{{ "/css/page.css" | prepend: site.baseurl }}">
 <div class="contwarp webcont">
     <div class="content clear">
-        <h3 class="websubtitle">
-            {{ page.title }}
-            <span>{{ page.date }}</span>
-        </h3>
+        <div class="websubtitle clear">
+            <h3 class="fl">{{ page.title }}<span>{{ page.date }}</span></h3>
+            <div class="price fr"><span>售价：</span>50元/页</div>
+        </div>
+        <p class="des">购买请点击：www.taobao.com</p>
         <div class="websubcont">
             {{content}}
         </div>

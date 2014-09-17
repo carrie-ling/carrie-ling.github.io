@@ -8,7 +8,3 @@ header{position: inherit;}
 .contwarp{ padding-top:104px;background: url("img/homebg.gif") center 0 no-repeat #389fd2;}
 .content{background: none;}
 
-/*底部*/
-footer{ height: 100px; padding-top: 30px; }
-footer p{ line-height: 25px;}
-footer p,footer p a{font-size: 12px; color: #636363;}
