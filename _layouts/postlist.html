@@ -9,7 +9,7 @@ title: 文章列表
         <div class="dwenmain fl">
             <div class="texttitle">
                 <div class="titletop clear">
-                    <h2>{{ post.title }}</h2>
+                    <h2>{{ page.title }}</h2>
                     <div class="search">
                         <input type="text" value="" placeholder="搜索文章"/>
                         <button></button>
@@ -34,6 +34,7 @@ title: 文章列表
                 </div>
             </div>
             <ul class="textlist">
+                {% for post in paginator.posts %}
                 {% for post in site.posts %}
                 <li>
                     <div class="textcont clear">
@@ -59,11 +60,10 @@ title: 文章列表
                     </div>
                 </li>
                 {% endfor %}
+                {% endfor %}
             </ul>
             <div class="pages ml30  mt10 mb10">
-                <a class="pageprev" href="http://www.duowen.org.cn/?page=1">
-                    <span class="yy-icon yy-pp"></span>
-                </a>
+                <a class="pageprev" href="http://www.duowen.org.cn/?page=1"><span class="yy-icon yy-pp"></span></a>
                 <a href="http://www.duowen.org.cn/?page=1">1</a>
                 <a class="pageactive" href="http://www.duowen.org.cn/?page=2">2</a>
                 <a href="http://www.duowen.org.cn/?page=3">3</a>

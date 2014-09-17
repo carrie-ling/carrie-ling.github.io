@@ -9,6 +9,7 @@ baseurl: "http://carrie-ling.github.io" # the subpath of your site, e.g. /blog/
 url: "http://carrie-ling.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
+paginate: 5
 
 # Build settings
 markdown: kramdown
