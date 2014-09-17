@@ -2,7 +2,7 @@ nav.topnav,.sublogo,#sooptions{display: block;}
 #technology{ display: none; }
 
 /*主体*/
-.contwarp{ padding-top: 164px; background: #efeff3;}
+.contwarp{background: #efeff3;}
 .content{background: none; margin-bottom: 20px;}
 .webcont .content{ background: #fff;}
 .websubtitle{ height: 52px;padding: 15px 20px;}

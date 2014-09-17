@@ -3,16 +3,16 @@ body{ font-family: "微软雅黑";}
 /*common end*/
 header{ z-index: 10000; background: url("img/headbg.gif") no-repeat center;top: 0px; width: 100%; position: fixed;}
 .header{ height: 94px; width: 1180px; margin: 0px auto; clear: both;}
-.sublogo{ width: 85px; height: 53px; background: url("img/sublogo.png"); margin:20px;}
+.sublogo{ width: 85px; height: 53px; background: url("img/sublogo.png"); margin:20px;float: left;}
+.sublogo span{ display: none;}
+nav.topnav{ float: left;}
 .topnav a{ margin-top: 25px; display:block; float:left; text-align:center; margin-right:53px;color: #fff; font-size: 14px;}
 .topnav a span{ display: block; }
 .topnav a span.naven{ font-size: 12px; font-family: Arial;color: #c1c1c1;}
 .subnav{ display: block; width: 100%; height: 60px; background: #f6f7f9; box-shadow: 2px 2px 2px #000;}
-.contwarp{ width: 100%;}
+.contwarp{ width: 100%; padding-top: 164px; }
 .content{min-height: 650px; }
-nav.topnav{ float: left;}
-.sublogo{ float: left;}
-.sublogo span{ display: none;}
+
 .qq{ width:84px; height:34px; background:url("img/qq.png");margin-top: 30px; margin-right: 15%; float: right;}
 /*主体*/
 
