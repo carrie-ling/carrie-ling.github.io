@@ -38,7 +38,7 @@ title: 文章列表
                 {% for post in site.posts %}
                 <li>
                     <div class="textcont clear">
-                        <img  width="80" height="80" src="images/textico.gif" />
+                        <img  width="80" height="80" src="{{ base.url }}/asset/images/textico.gif" />
                         <p>
                             <a class="titletext" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                                 <span>
