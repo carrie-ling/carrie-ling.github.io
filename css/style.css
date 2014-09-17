@@ -985,13 +985,19 @@ span#uxx {
     line-height: 40px;
     text-align: center;
     color: #535353;
-    background: none repeat scroll 0 0 #edeeee;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11) inset;
+
 }
 .soitemlabel a{
     color: #535353;
 }
-.soitemlabel a:hover{ color: #fff; background: url("img/navonbg.jpg") repeat-x;}
+.soitemlabel a:hover{
+    background: none repeat scroll 0 0 #edeeee;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11) inset;
+}
+.soitemlabel a:visited{
+    background: url("img/navonbg.jpg") repeat-x;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11) inset;
+}
 .soitemlabeltxt {
     margin: 0 10px;
 }
