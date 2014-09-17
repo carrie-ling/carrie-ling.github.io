@@ -8,7 +8,7 @@ layout: default
         <div class="dwenmain fl">
             <div class="texttitle">
                 <div class="titletop clear">
-                    <h2>css</h2>
+                    <h2>{{ post.title }}</h2>
                     <div class="search">
                         <input type="text" value="" placeholder="搜索文章"/>
                         <button></button>
@@ -33,11 +33,12 @@ layout: default
                 </div>
             </div>
             <ul class="textlist">
+                {% for post in site.posts %}
                 <li>
                     <div class="textcont clear">
                         <img  width="80" height="80" src="images/textico.gif" />
                         <p>
-                            <a class="titletext" href="#">标题</a>
+                            <a class="titletext" href="#">{{ post.title }}</a>
                                 <span>
                                     大幅度反弹收复斯蒂芬斯蒂芬
                                     <a href="http://baidu.com">http://baidu.com</a>
@@ -46,7 +47,7 @@ layout: default
                     </div>
                     <div class="textdes clear">
                         <p class="fl">
-                            <span class="date">2014-08-06 11：00</span>
+                            <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
                             <span>阅读：(5465465)</span>
                         </p>
                         <p class="fr">
@@ -57,6 +58,7 @@ layout: default
 
                     </div>
                 </li>
+                {% endfor %}
             </ul>
             <div class="pages ml30  mt10 mb10">
                 <a class="pageprev" href="http://www.duowen.org.cn/?page=1">
