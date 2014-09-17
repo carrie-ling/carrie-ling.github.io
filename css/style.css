@@ -957,7 +957,7 @@ span#uxx {
     border: none;
 }
 
-#sooptions {
+#sooptions,#technology{
     height: 40px;
     width: 100%;
     padding: 10px 0;
