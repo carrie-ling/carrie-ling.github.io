@@ -48,7 +48,7 @@ a.titletext{ font-size: 16px; line-height: 25px; display: block;}
 .moretitle{height: 80px; background: url("img/line.png") repeat-x #fff;}
 .moretitle img{ margin-top: 15px;}
 
-.adbanner{ height: 90px; width: 1180px; margin: 0px auto; text-align: center;}
+.adbanner{ height: 90px; width: 1180px; margin: 0px auto; background: #fff;}
 /*技术内页主体部分*/
 .textcontwarp .titletop, .textcontwarp  .titlebottom{  width: 95%;}
 .textcont{ margin: 5px 15px;}
