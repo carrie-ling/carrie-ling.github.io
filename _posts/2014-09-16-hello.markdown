@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: postjquery
 title:  "hello!"
 date:   2014-09-16 17:46:13
 categories: jekyll update
 ---
 
-# 一级标题 DOM概述 #
+# 我是js文本一级标题 DOM概述 #
 
 ## 二级标题 目录##
 

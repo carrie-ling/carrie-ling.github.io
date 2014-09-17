@@ -1,5 +1,5 @@
 ---
-layout: postcss
+layout: postjs
 title:  "Welcome to Jekyll!"
 date:   2014-09-05 17:46:13
 categories: jekyll update
