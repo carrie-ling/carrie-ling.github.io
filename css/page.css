@@ -7,7 +7,7 @@ header{top: 0px; width: 100%; position: fixed;}
 .subnav{ display: block; width: 100%; height: 60px; background: #f6f7f9; box-shadow: 2px 2px 2px #000;}
 /*主体*/
 .contwarp{ padding-top: 164px; background: #efeff3;}
-.content{background: none;}
+.content{background: none; margin-bottom: 20px;}
 .webcont .content{ background: #fff;}
 .websubtitle{ height: 60px;padding: 15px 20px;}
 .websubtitle h3,.price{ font-size: 24px;  font-weight: 500;}
@@ -16,8 +16,8 @@ header{top: 0px; width: 100%; position: fixed;}
 .websubtitle h3 span,.price span{ font-size: 14px; font-weight: normal; line-height: 25px;}
 .websubtitle h3 span{display: block;}
 .des{ height: 60px; color: #d86b01; }
-.websubcont{ padding-left:20px; padding-right: 20px; margin-bottom: 20px; }
-.websubcont img{float: none;}
+.websubcont{ padding-left:20px; padding-right: 20px; }
+.websubcont img{float: none;display: block; margin: 0 auto;}
 .websubcont p{ font-size: 14px; line-height: 20px; margin-top: 5px; margin-bottom: 5px;}
 .pages{width: 1180px; margin: 15px auto;}
 
