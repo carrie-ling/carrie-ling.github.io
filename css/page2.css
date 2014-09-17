@@ -38,7 +38,7 @@ a.titletext{ font-size: 16px; line-height: 25px; display: block;}
 .lefttextli li a{ color: #2d64b3;}
 .lefttextli li.leftli-title{list-style:none;}
 
-.links{ width: 264px; margin: 10px auto;line-height: 25px;font-size: 14px;}
+.links{ width: 260px; margin: 10px auto;line-height: 25px;font-size: 14px;}
 .links p{  margin-bottom: 10px;}
 .links li{ float: left; margin-right: 10px; margin-bottom: 10px;}
 .links a{ color: #888888;}
