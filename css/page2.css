@@ -1,3 +1,5 @@
+#technology{ display: block; }
+#sooptions{display: none;}
 /*主体*/
 .contwarp{ background:url("img/page2bg.png") #fff;}
 .content{ background: #fff;}

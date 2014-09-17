@@ -1,4 +1,5 @@
 nav.topnav,.sublogo,#sooptions{display: block;}
+#technology{ display: none; }
 header{top: 0px; width: 100%; position: fixed;}
 .sublogo{ width: 85px; height: 53px; background: url("img/sublogo.png"); margin:20px;}
 .topnav a{ margin-top: 25px; display:block; float:left; text-align:center; margin-right:53px;color: #fff; font-size: 14px;}
@@ -9,7 +10,7 @@ header{top: 0px; width: 100%; position: fixed;}
 .contwarp{ padding-top: 164px; background: #efeff3;}
 .content{background: none; margin-bottom: 20px;}
 .webcont .content{ background: #fff;}
-.websubtitle{ height: 60px;padding: 15px 20px;}
+.websubtitle{ height: 52px;padding: 15px 20px;}
 .websubtitle h3,.price{ font-size: 24px;  font-weight: 500;}
 .websubtitle h3{color: #8c8c8c;}
 .price{ code:#70ca10;}
