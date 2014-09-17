@@ -994,6 +994,7 @@ span#uxx {
     color: #535353;
 }
 .soitemlabel a:hover{
+    text-decoration: none;
     background: none repeat scroll 0 0 #edeeee;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11) inset;
 }
