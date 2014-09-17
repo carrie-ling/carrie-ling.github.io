@@ -34,20 +34,20 @@ permalink: technology/js/
     </div>
     <ul class="textlist">
 
-        {% for postjs in site.postjs %}
+        {% for post in site.categories.postjs %}
         <li>
             <div class="textcont clear">
                 <img  width="80" height="80" src="{{ base.url }}/asset/images/textico.gif" />
                 <p>
-                    <a class="titletext" href="{{ postjs.url | prepend: site.baseurl }}">{{ postjs.title }}</a>
+                    <a class="titletext" href="{{ postjs.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 <span>
-                    {{ postjs.categories }}
+                    {{ post.categories }}
                 </span>
                 </p>
             </div>
             <div class="textdes clear">
                 <p class="fl">
-                    <span class="date">{{ postjs.date | date: "%b %-d, %Y" }}</span>
+                    <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
                     <span>阅读：(5465465)</span>
                 </p>
                 <p class="fr">
