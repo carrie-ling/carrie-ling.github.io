@@ -77,5 +77,5 @@ blockquote, body, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre,
     margin: 0;
     padding: 0;
 }
-code, pre{ color: #fff;}
+code, pre{ color: #fff; padding: 5px; border-radius: 3px;}
 articl3 h4, article h2, article h3, article h5 { padding-bottom: 1em;}
