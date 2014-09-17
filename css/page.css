@@ -16,7 +16,7 @@ header{top: 0px; width: 100%; position: fixed;}
 .websubtitle h3 span,.price span{ font-size: 14px; font-weight: normal; line-height: 25px;}
 .websubtitle h3 span{display: block;}
 .des{ height: 60px; color: #d86b01; padding-left: 20px;}
-.websubcont{ padding-left:20px; padding-right: 20px; }
+.websubcont{ padding-left:20px; padding-right: 20px; margin-bottom: 20px; }
 .websubcont img{ clear: both;}
 .websubcont p{ font-size: 14px; line-height: 20px;}
 .pages{width: 1180px; margin: 15px auto;}
