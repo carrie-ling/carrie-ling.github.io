@@ -16,12 +16,7 @@ blockquote, body, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre,
     padding: 0;
 
 }
-h1{font-size:28px}
-h2{font-size: 26px;}
-h3{font-size: 24px;}
-h4{font-size: 18px;}
-h5{font-size: 16px;}
-h6{font-size: 14px;}
+
 .highlight{  margin-top: 1em;}
 table {
     background: none repeat scroll 0 0 #fff;
@@ -83,3 +78,9 @@ p{ line-height: 219%; padding-left: 10px; padding-right:10px;}
 a{ color:#4183c4;}
 article.bookPage blockquote{ border-radius: 0.5em;}
 article.bookPage > div > div > ol, article.bookPage > div > div > ul:not(.reference-list){ border-radius: 0.5em;}
+h1{font-size:28px}
+h2{font-size: 26px;}
+h3{font-size: 24px;}
+h4{font-size: 18px;}
+h5{font-size: 16px;}
+h6{font-size: 14px;}
