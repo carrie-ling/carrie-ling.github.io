@@ -1,4 +1,4 @@
-nav.topnav,.sublogo,#sooptions,#technology{ display: none;}
+nav.topnav,.sublogo,#socontent,#technology{ display: none;}
 header{position: inherit;}
 .homelogo{width: 333px; height: 279px;background: url("img/homelogo.png") no-repeat; margin: 0px auto 60px; display: block;}
 .homenav a{ display: block; float: left; width: 177px; height: 177px; margin-left: 10px; text-align:center;color: #fff; background: url("img/homenavbg.png") no-repeat;}
