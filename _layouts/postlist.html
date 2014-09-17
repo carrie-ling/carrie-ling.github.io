@@ -41,7 +41,6 @@ layout: default
                             <a class="titletext" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                                 <span>
                                     {{ post.categories }}
-                                    <a href="http://baidu.com">http://baidu.com</a>
                                 </span>
                         </p>
                     </div>
@@ -79,14 +78,13 @@ layout: default
         </div>
         <div class="rightbar fr">
             <div class="ad264">
-                <img src="images/ad1.gif" alt=""/>
+                <img src="{{ base.url }}/asset/images/ad1.gif" alt=""/>
             </div>
             <ul class="lefttextli">
                 <li class="leftli-title">精彩知识在多闻</li>
-                <li><a href="#">打发打发士大夫似的发的范德萨范德</a></li>
-                <li><a href="#">打发打发士大夫似的发的范德萨范德</a></li>
-                <li><a href="#">打发打发士大夫似的发的范德萨范德</a></li>
-                <li><a href="#">打发打发士大夫似的发的范德萨范德</a></li>
+                {% for post in site.posts %}
+                <li><a href="#">{{ post.title }}</a></li>
+                {% endfor %}
             </ul>
             <div class="links">
                 <p>友情链接</p>
