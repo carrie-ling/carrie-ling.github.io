@@ -988,6 +988,9 @@ span#uxx {
 
 }
 .soitemlabel a{
+    display: block;
+    width: 100px;
+    height: 40px;
     color: #535353;
 }
 .soitemlabel a:hover{
