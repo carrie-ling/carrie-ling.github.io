@@ -1,0 +1,85 @@
+---
+layout: default
+title: About
+permalink: /about/
+---
+<link rel="stylesheet" href="{{ "/css/page2.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ "/css/markdown.css" | prepend: site.baseurl }}">
+
+<div class="contwarp pb15">
+    <div class="content clear">
+        <div class="dwenmain fl">
+            <div class="texttitle">
+                <div class="titletop clear">
+                    <h2>文章列表</h2>
+                    <div class="search">
+                        <input type="text" value="" placeholder="搜索文章"/>
+                        <button></button>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="titlebottom clear">
+                    <h3 class="fl">Last.<span>Top Rated.Most Popular</span></h3>
+                    <div class="pages1 fr">
+                        <a class="pageprev" href="http://www.duowen.org.cn/?page=1">
+                            <span class="yy-icon yy-pp"></span>
+                        </a>
+                        <a href="http://www.duowen.org.cn/?page=1">1</a>
+                        <a class="pageactive" href="http://www.duowen.org.cn/?page=2">2</a>
+                        <a href="http://www.duowen.org.cn/?page=3">3</a>
+                        <span>...</span>
+                        <a href="http://www.duowen.org.cn/?page=136">136</a>
+                        <a class="pagenext" href="http://www.duowen.org.cn/?page=3">
+                            <span class="yy-icon yy-pp yy-rotate"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="textlist">
+                {% for post in site.posts %}
+                <li>
+                    <div class="textcont clear">
+                        <img  width="80" height="80" src="{{ base.url }}/asset/images/textico.gif" />
+                        <p>
+                            <a class="titletext" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                <span>
+                    {{ post.categories }}
+                </span>
+                        </p>
+                    </div>
+                    <div class="textdes clear">
+                        <p class="fl">
+                            <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                            <span>阅读：(5465465)</span>
+                        </p>
+                        <p class="fr">
+                            <a href="#">转载</a>|
+                            <a href="#">评论</a>|
+                            <a href="#">收藏</a>
+                        </p>
+
+                    </div>
+                </li>
+                {% endfor %}
+
+            </ul>
+            <div class="pages ml30  mt10 mb10">
+                <a class="pageprev" href="http://www.duowen.org.cn/?page=1"><span class="yy-icon yy-pp"></span></a>
+                <a href="http://www.duowen.org.cn/?page=1">1</a>
+                <a class="pageactive" href="http://www.duowen.org.cn/?page=2">2</a>
+                <a href="http://www.duowen.org.cn/?page=3">3</a>
+                <a href="http://www.duowen.org.cn/?page=4">4</a>
+                <a href="http://www.duowen.org.cn/?page=5">5</a>
+                <span>...</span>
+                <a href="http://www.duowen.org.cn/?page=136">136</a>
+                <a class="pagenext" href="http://www.duowen.org.cn/?page=3">
+                    <span class="yy-icon yy-pp yy-rotate"></span>
+                </a>
+            </div>
+            <!--<a href="#" class="top"></a>-->
+        </div>
+        {% include right.html %}
+    </div>
+    {% include more.html %}
+</div>

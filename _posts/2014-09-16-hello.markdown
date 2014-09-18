@@ -6,7 +6,7 @@ tags: [postjquery]
 categories: jekyll update
 ---
 
-# 我是js文本一级标题 DOM概述 #
+# postjquery DOM概述 #
 
 ## 二级标题 目录##
 
