@@ -17,11 +17,11 @@ nav.topnav{ float: left;}
 /*主体*/
 
 /*底部*/
-footer{ height: 439px; padding-top: 30px; }
+footer{ height: 439px;}
 .topshow{ height: 312px; background: #22618c; }
 .topshow li a{color: #d6ecfa;}
-.topshow li{ background: url("img/number.png");}
-.topshow.ftitle{ background: none;}
+.topshow li{ height: 27px; background: url("img/number.png") no-repeat; font-size: 14px;}
+.topshow.ftitle{ background: none; font-size: 16px;}
 .topshow li.tico1{ background-position: 0 0}
 .topshow li.tico2{ background-position: 0 0}
 .topshow li.tico3{ background-position: 0 0}
