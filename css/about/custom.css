@@ -68,7 +68,7 @@
 .nav-arrows span {
 	position: absolute;
 	z-index: 2000;
-	top: 50%;
+	top: 15%;
 	width: 40px;
 	height: 40px;
 	border: 8px solid #ddd;
@@ -95,7 +95,7 @@
 }
 
 .nav-arrows span.nav-arrow-next {
-	right: 5%;
+	left: 5%;
 	border-left: none;
 	border-bottom: none;
 }
@@ -334,7 +334,7 @@
 /* Fifth Slide */
 .demo-1 .bg-5 .sl-slide-inner,
 .demo-1 .bg-5 .sl-content-slice {
-	background: #241654;
+	background: #775cd2;
 }
 
 .demo-1 .bg-5 .deco {
