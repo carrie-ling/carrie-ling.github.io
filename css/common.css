@@ -17,7 +17,7 @@ nav.topnav{ float: left;}
 /*主体*/
 
 /*底部*/
-footer{ height: 439px;}
+footer{ height: 439px; padding-left: 5%; padding-right: 5%;}
 .topshow{ height: 312px; background: #22618c; }
 .topshow li a{color: #d6ecfa;}
 .topshow li{ height: 27px; background: url("img/number.png") no-repeat; font-size: 14px;}
