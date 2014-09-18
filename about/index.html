@@ -13,82 +13,72 @@ permalink: /about/
 </script>
 
 
-<div class="contwarp pb15">
-    <div class="content clear">
-        <div class="dwenmain fl">
-            <div class="texttitle">
-                <div class="titletop clear">
-                    <h2>文章列表</h2>
-                    <div class="search">
-                        <input type="text" value="" placeholder="搜索文章"/>
-                        <button></button>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-                <div class="titlebottom clear">
-                    <h3 class="fl">Last.<span>Top Rated.Most Popular</span></h3>
-                    <div class="pages1 fr">
-                        <a class="pageprev" href="http://www.duowen.org.cn/?page=1">
-                            <span class="yy-icon yy-pp"></span>
-                        </a>
-                        <a href="http://www.duowen.org.cn/?page=1">1</a>
-                        <a class="pageactive" href="http://www.duowen.org.cn/?page=2">2</a>
-                        <a href="http://www.duowen.org.cn/?page=3">3</a>
-                        <span>...</span>
-                        <a href="http://www.duowen.org.cn/?page=136">136</a>
-                        <a class="pagenext" href="http://www.duowen.org.cn/?page=3">
-                            <span class="yy-icon yy-pp yy-rotate"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
+<div class="container demo-1">
 
-            <ul class="textlist">
-                {% for post in site.posts %}
-                <li>
-                    <div class="textcont clear">
-                        <img  width="80" height="80" src="{{ base.url }}/asset/images/textico.gif" />
-                        <p>
-                            <a class="titletext" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                <span>
-                    {{ post.categories }}
-                </span>
-                        </p>
-                    </div>
-                    <div class="textdes clear">
-                        <p class="fl">
-                            <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
-                            <span>阅读：(5465465)</span>
-                        </p>
-                        <p class="fr">
-                            <a href="#">转载</a>|
-                            <a href="#">评论</a>|
-                            <a href="#">收藏</a>
-                        </p>
+    <!--无视之-->
+        <nav class="codrops-demos">
+        <a class="current-demo" href="index.html">Demo 1</a>
+<a href="index2.html">Demo 2</a>
+</nav>
 
-                    </div>
-                </li>
-                {% endfor %}
+<div id="slider" class="sl-slider-wrapper">
 
-            </ul>
-            <div class="pages ml30  mt10 mb10">
-                <a class="pageprev" href="http://www.duowen.org.cn/?page=1"><span class="yy-icon yy-pp"></span></a>
-                <a href="http://www.duowen.org.cn/?page=1">1</a>
-                <a class="pageactive" href="http://www.duowen.org.cn/?page=2">2</a>
-                <a href="http://www.duowen.org.cn/?page=3">3</a>
-                <a href="http://www.duowen.org.cn/?page=4">4</a>
-                <a href="http://www.duowen.org.cn/?page=5">5</a>
-                <span>...</span>
-                <a href="http://www.duowen.org.cn/?page=136">136</a>
-                <a class="pagenext" href="http://www.duowen.org.cn/?page=3">
-                    <span class="yy-icon yy-pp yy-rotate"></span>
-                </a>
-            </div>
-            <!--<a href="#" class="top"></a>-->
-        </div>
-        {% include right.html %}
-    </div>
-    {% include more.html %}
+        <div class="sl-slider">
+
+        <div class="sl-slide bg-1" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+        <div class="sl-slide-inner">
+        <div class="deco" data-icon="H"></div>
+        <h2>A bene placito</h2>
+        <blockquote><p>You have just dined, and however scrupulously the slaughterhouse is concealed in the graceful distance of miles, there is complicity.</p><cite>Ralph Waldo Emerson</cite></blockquote>
+</div>
+</div>
+
+<div class="sl-slide bg-2" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+        <div class="sl-slide-inner">
+        <div class="deco" data-icon="q"></div>
+        <h2>Regula aurea</h2>
+        <blockquote><p>Until he extends the circle of his compassion to all living things, man will not himself find peace.</p><cite>Albert Schweitzer</cite></blockquote>
+</div>
+</div>
+
+<div class="sl-slide bg-3" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+        <div class="sl-slide-inner">
+        <div class="deco" data-icon="O"></div>
+        <h2>Dum spiro, spero</h2>
+        <blockquote><p>Thousands of people who say they 'love' animals sit down once or twice a day to enjoy the flesh of creatures who have been utterly deprived of everything that could make their lives worth living and who endured the awful suffering and the terror of the abattoirs.</p><cite>Dame Jane Morris Goodall</cite></blockquote>
+</div>
+</div>
+
+<div class="sl-slide bg-4" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
+        <div class="sl-slide-inner">
+        <div class="deco" data-icon="I"></div>
+        <h2>Donna nobis pacem</h2>
+        <blockquote><p>The human body has no more need for cows' milk than it does for dogs' milk, horses' milk, or giraffes' milk.</p><cite>Michael Klaper M.D.</cite></blockquote>
+</div>
+</div>
+
+<div class="sl-slide bg-5" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
+        <div class="sl-slide-inner">
+        <div class="deco" data-icon="t"></div>
+        <h2>Acta Non Verba</h2>
+        <blockquote><p>I think if you want to eat more meat you should kill it yourself and eat it raw so that you are not blinded by the hypocrisy of having it processed for you.</p><cite>Margi Clarke</cite></blockquote>
+</div>
+</div>
+</div><!-- /sl-slider -->
+
+<nav id="nav-arrows" class="nav-arrows">
+        <span class="nav-arrow-prev">Previous</span>
+<span class="nav-arrow-next">Next</span>		</nav>
+
+<nav id="nav-dots" class="nav-dots">
+        <span class="nav-dot-current"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>		</nav>
+
+</div><!-- /slider-wrapper -->
+
 </div>
 
 <script type="text/javascript" src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
