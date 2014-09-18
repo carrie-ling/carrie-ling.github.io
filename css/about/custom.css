@@ -89,13 +89,13 @@
 }
 
 .nav-arrows span.nav-arrow-prev {
-	left: 5%;
+	right: 10%;
 	border-right: none;
 	border-top: none;
 }
 
 .nav-arrows span.nav-arrow-next {
-	left: 5%;
+	right: 8%;
 	border-left: none;
 	border-bottom: none;
 }
