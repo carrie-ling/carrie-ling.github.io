@@ -17,6 +17,14 @@ nav.topnav{ float: left;}
 /*主体*/
 
 /*底部*/
-footer{ height: 100px; padding-top: 30px;background: #031523; }
-footer p{ line-height: 25px;}
-footer p,footer p a{font-size: 12px; color: #cecece;}
+footer{ height: 439px; padding-top: 30px; }
+.topshow{ height: 312px; background: #22618c; }
+.topshow li a{color: #d6ecfa;}
+.topshow li{ background: url("img/number.png");}
+.topshow.ftitle{ background: none;}
+.topshow li.tico1{ background-position: 0 0}
+.topshow li.tico2{ background-position: 0 0}
+.topshow li.tico3{ background-position: 0 0}
+.topshow li.tico4{ background-position: 0 0}
+.topshow li.tico5{ background-position: 0 0}
+.topshow li.tico6{ background-position: 0 0}
