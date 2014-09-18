@@ -1,4 +1,4 @@
-#sooptions,#technology{ display: none;}
+
 .demo-1 .sl-slider-wrapper {
 	position: absolute;
 	width: 100%;
@@ -282,7 +282,7 @@
 /* Third Slide */
 .demo-1 .bg-3 .sl-slide-inner,
 .demo-1 .bg-3 .sl-content-slice {
-	background: #db84ad;
+	background: #359ccf;
 }
 
 .demo-1 .bg-3 .deco {
@@ -293,7 +293,7 @@
 .demo-1 .bg-3 [data-icon]:after {
 	color: #fff;
 	text-shadow: 0 0 1px #fff;
-	box-shadow: inset 0 0 0 10px #b55381;
+	box-shadow: inset 0 0 0 10px #0f3c5b;
 }
 
 .demo-1 .bg-3 h2,
@@ -334,11 +334,11 @@
 /* Fifth Slide */
 .demo-1 .bg-5 .sl-slide-inner,
 .demo-1 .bg-5 .sl-content-slice {
-	background: #ffeb41;
+	background: #241654;
 }
 
 .demo-1 .bg-5 .deco {
-	border-color: #ECD82C;
+	border-color: #1e0f51;
 }
 
 .demo-1 .bg-5 .deco:after {

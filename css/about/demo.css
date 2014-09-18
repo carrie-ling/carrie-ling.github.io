@@ -44,7 +44,7 @@ a {
 	color: #555;
 	text-decoration: none;
 }
-
+#sooptions,#technology{ display: none;}
 .container {
 	width: 100%;
 	position: relative;
@@ -53,6 +53,7 @@ a {
 .container.demo-1 {
 	height: 100%;
 	position: absolute;
+    top: 93px;
 }
 
 .clr {
