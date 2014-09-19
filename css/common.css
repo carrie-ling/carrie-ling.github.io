@@ -31,7 +31,7 @@ footer{ height: 439px; background: #22618c;}
 .ftext li.tico5{ background-position: 0 -191px;}
 .ftext li.tico6{ background-position: 0 -240px;}
 .email{width: 310px; height: 265px; background:url("img/email.png") 0 91px no-repeat;padding-top: 10px; color: #d6ecfa;}
-.email a.ftitle{ padding-left: 30px;}
+.email a.ftitle{ padding-left: 30px;color: #d6ecfa;}
 .email p{ background: none;}
 .email p a{ color: #d6ecfa;}
 .email p a:hover{ color: #4bb8fc; text-decoration: underline;}
