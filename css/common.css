@@ -26,12 +26,12 @@ footer{ height: 432px; background: #22618c;}
 .ftext li,.email p{ height: 30px; line-height: 30px; padding-left: 19px; font-family: "宋体"; background: url("img/number.png") no-repeat; font-size: 14px;}
 .ftext li.ftitle,.email a.ftitle{ background: none; font-size: 18px;font-family: "微软雅黑"; margin-bottom: 16px;}
 .ftext li.ftitle a:hover,.email a.ftitle:hover{text-decoration: none;}
-.ftext li.tico1{ background-position: 0 9px;}
-.ftext li.tico2{ background-position: 0 -40px;}
-.ftext li.tico3{ background-position: 0 -91px;}
-.ftext li.tico4{ background-position: 0 -140px;}
-.ftext li.tico5{ background-position: 0 -191px;}
-.ftext li.tico6{ background-position: 0 -240px;}
+/*.ftext li.tico1{ background-position: 0 9px;}*/
+/*.ftext li.tico2{ background-position: 0 -40px;}*/
+/*.ftext li.tico3{ background-position: 0 -91px;}*/
+/*.ftext li.tico4{ background-position: 0 -140px;}*/
+/*.ftext li.tico5{ background-position: 0 -191px;}*/
+/*.ftext li.tico6{ background-position: 0 -240px;}*/
 .email{width: 310px; height: 265px; background:url("img/email.png") 0 91px no-repeat;padding-top: 17px; color: #d6ecfa;}
 .email a.ftitle{ padding-left: 30px;color: #d6ecfa;}
 .email p{ background: none;}
