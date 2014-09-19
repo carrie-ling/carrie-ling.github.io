@@ -29,7 +29,9 @@ footer{ height: 439px; background: #22618c;}
 .ftext li.tico4{ background-position: 0 -141px;}
 .ftext li.tico5{ background-position: 0 -191px;}
 .ftext li.tico6{ background-position: 0 -240px;}
-.email{width: 250px; height: 197px;padding-top: 10px; padding-bottom: 35px;}
+.email{width: 250px; height: 197px; background:url("img/email.png") 0 0 no-repeat;padding-top: 10px; padding-bottom: 35px;color: #d6ecfa;}
+.email h1.ftitle{ padding-left: 30px;}
 .email p{ background: none;}
+.email p a{ color: #049fff;}
 
 .ftextb{ background: #031523;}
