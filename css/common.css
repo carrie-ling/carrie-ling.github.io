@@ -17,7 +17,7 @@ nav.topnav{ float: left;}
 /*主体*/
 
 /*底部*/
-footer{ height: 439px; background: #22618c;}
+footer{ height: 432px; background: #22618c;}
 .topshow{ width:1180px;height: 275px; margin:0px auto; padding-top: 37px; }
 .ftext{ width: 250px; height: 197px; background: url("img/line.gif") no-repeat center right; padding-top: 10px; padding-bottom: 35px; overflow: hidden;}
 .ftext li{ width: 201px; overflow: hidden;}
