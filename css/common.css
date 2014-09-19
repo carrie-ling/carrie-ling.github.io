@@ -39,5 +39,5 @@ footer{ height: 432px; background: #22618c;}
 .email p a:hover{ color: #4bb8fc; text-decoration: underline;}
 
 .ftextb{ height: 120px; background: #031523;}
-.ftextb div{ width: 1180px; margin: 0px auto;}
+.ftextb div{ width: 1180px; margin: 0px auto; padding-top: 30px;}
 .ftextb p{color: #314556; margin: auto;}
