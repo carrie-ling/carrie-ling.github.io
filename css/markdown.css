@@ -96,3 +96,4 @@ article.bookPage > div > ol, article.bookPage > div > ul:not(.reference-list) {
     padding: 1em 1em 1em 3em;
     text-shadow: 0 1px #fff;
 }
+article h1{ background:url("img/titlebg.gif") repeat scroll 0 0 #eeebe9; height: 36px; line-height: 36px;}
