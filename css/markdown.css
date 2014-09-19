@@ -85,10 +85,10 @@ h3{font-size: 24px;}
 h4{font-size: 20px;}
 h5{font-size: 18px;}
 h6{font-size: 16px;}
-article.bookPage > div > div > ul:not(.reference-list) {
+article.bookPage > div > ul:not(.reference-list) {
     list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAKCAYAAACXDi8zAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAScAAAEnABIZuYagAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAACSSURBVAiZVY0hDsJQEERfG+RW9wRIBA4DAgMKg6nZIkg4B6fgAFUEw5UQiG1CQNSSDILSfEbOy8zLwq0CKJvuTJIcuAGnti62KUAS4TYPt1e4bSQh6Qt6uOzhWhKZpGHd1sUKuADHnP/cgTcwTq+m4daG22FwhNss3B7hthvk4bYIt2e4Vb9SEiNgAuzLprumsg/n8VnjsKqsSQAAAABJRU5ErkJggg==");
 }
-article.bookPage > div > div > ol, article.bookPage > div > div > ul:not(.reference-list) {
+article.bookPage > div > ol, article.bookPage > div > div > ul:not(.reference-list) {
     background-color: #f5f2f0;
     border-left: 1.2em solid #e67e22;
     border-radius: 1.5em;
