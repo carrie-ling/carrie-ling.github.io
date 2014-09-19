@@ -18,11 +18,11 @@ nav.topnav{ float: left;}
 
 /*底部*/
 footer{ height: 439px; }
-.topshow{ height: 275px;background: #22618c; padding-top: 37px; padding-left: 5%; padding-right: 5%; }
-.ftext{ width: 250px; height: 187px; background: url("img/line.gif") no-repeat center right; padding-top: 35px; padding-bottom: 35px; overflow: hidden;}
+.topshow{ width:1180px;height: 275px; margin:0px auto;background: #22618c; padding-top: 37px; }
+.ftext{ width: 250px; height: 197px; background: url("img/line.gif") no-repeat center right; padding-top: 10px; padding-bottom: 35px; overflow: hidden;}
 .ftext li a{color: #d6ecfa;}
 .ftext li{ height: 30px; line-height: 30px; padding-left: 19px; font-family: "宋体"; background: url("img/number.png") no-repeat; font-size: 14px;}
-.ftext li.ftitle{ background: none; font-size: 18px;font-family: "微软雅黑";}
+.ftext li.ftitle{ background: none; font-size: 18px;font-family: "微软雅黑"; margin-bottom: 16px;}
 .ftext li.tico1{ background-position: 0 10px;}
 .ftext li.tico2{ background-position: 0 -41px;}
 .ftext li.tico3{ background-position: 0 -92px;}
