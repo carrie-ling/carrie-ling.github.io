@@ -23,7 +23,7 @@ footer{ height: 432px; background: #22618c;}
 .ftext li{ width: 201px; overflow: hidden;}
 .ftext li a{color: #d6ecfa;}
 .ftext li a:hover{color: #4bb8fc; text-decoration: underline;}
-.ftext li,.email p{ height: 30px; line-height: 30px; padding-left: 19px; font-family: "宋体"; background: url("img/number.png") no-repeat; font-size: 14px;}
+.ftext li,.email p{ height: 30px; line-height: 30px; padding-left: 19px; font-family: "宋体"; background: url("img/number.png") 0 10px no-repeat; font-size: 14px;}
 .ftext li.ftitle,.email a.ftitle{ background: none; font-size: 18px;font-family: "微软雅黑"; margin-bottom: 16px;}
 .ftext li.ftitle a:hover,.email a.ftitle:hover{text-decoration: none;}
 /*.ftext li.tico1{ background-position: 0 9px;}*/
