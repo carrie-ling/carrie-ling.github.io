@@ -1565,18 +1565,17 @@ span#uxx {
 }
 
 .citemfoot a.citemfimg img {
-    margin-right: 8px;
     position: relative;
     top: -1px;
 }
 
 .citemfoot span {
-    margin-left: 10px;
+    margin-left: 6px;
     color: #C0C0C0
 }
 
 .citemfoot a.citemfimg span {
-    max-width: 50px;
+    max-width: 72px;
     height: 24px;
     display: inline-block;
 }
