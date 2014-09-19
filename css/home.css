@@ -4,7 +4,8 @@ header{position: inherit;}
 .homelogo{width: 333px; height: 279px;background: url("img/homelogo.png") no-repeat; margin: 0px auto 60px; display: block;}
 .homenav a{ display: block; float: left; width: 177px; height: 177px; margin-left: 10px; text-align:center;color: #fff; background: url("img/homenavbg.png") no-repeat;}
 .homenav a:hover{ background-position: -194px 0 ;}
-.homenav a i{ display: block; width: 64px; height: 67px; margin: 36px auto 5px; background: url("img/ico-home.gif");}
+.homenav a i{ display: block; width: 64px; height: 67px; margin: 36px auto 5px; background: url("img/ico.png");}
+.homenav a i.ico-web{ background-position: 2px 2px;}
 /*主体*/
 .contwarp{ padding-top:104px;background: url("img/homebg.gif") center 0 no-repeat #389fd2;}
 .content{background: none;}
