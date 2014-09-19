@@ -17,8 +17,8 @@ nav.topnav{ float: left;}
 /*主体*/
 
 /*底部*/
-footer{ height: 439px; background: #22618c;}
-.topshow{ height: 275px; padding-top: 37px; padding-left: 5%; padding-right: 5%; }
+footer{ height: 439px; }
+.topshow{ height: 275px;background: #22618c; padding-top: 37px; padding-left: 5%; padding-right: 5%; }
 .ftext{ width: 250px; height: 187px; background: url("img/line.gif") no-repeat center right; padding-top: 35px; padding-bottom: 35px; overflow: hidden;}
 .ftext li a{color: #d6ecfa;}
 .ftext li{ height: 30px; line-height: 30px; padding-left: 19px; font-family: "宋体"; background: url("img/number.png") no-repeat; font-size: 14px;}
