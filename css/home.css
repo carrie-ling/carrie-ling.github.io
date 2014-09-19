@@ -11,6 +11,6 @@ header{position: inherit;}
 .homenav a i.ico-collect{background-position: 0px -534px;}
 .homenav a i.ico-download{background-position: 0px -432px;}
 /*主体*/
-.contwarp{ padding-top:104px;background: url("img/homebg.gif") center 0 no-repeat #389fd2;}
+.contwarp{ padding-top:70px;background: url("img/homebg.gif") center 0 no-repeat #389fd2;}
 .content{background: none;}
 
