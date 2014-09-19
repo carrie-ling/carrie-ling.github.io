@@ -1580,7 +1580,7 @@ span#uxx {
     height: 24px;
     display: inline-block;
 }
-.citemfoot a.citemfimg span.fcfield{ max-width: 60px;}
+.citemfoot a.citemfimg span.fcfield{ max-width: 96px;}
 .citemfoot span.fcfield {
     vertical-align: top;
     line-height: 24px;
