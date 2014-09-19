@@ -52,3 +52,6 @@ a.titletext{ font-size: 16px; line-height: 25px; display: block;}
 /*技术内页主体部分*/
 .textcontwarp .titletop, .textcontwarp  .titlebottom{  width: 95%;}
 .textcont{ margin: 5px 15px;}
+
+/*改写*/
+article .dwenmain a[href^="http"]:after,article .lefttextli a[href^="http"]:after{content:none;}

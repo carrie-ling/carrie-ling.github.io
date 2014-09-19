@@ -78,7 +78,7 @@ article h1,article h2, article h3,article h4,article h5,article h6 { padding-bot
 p{ line-height: 219%; padding-left: 10px; padding-right:10px;}
 a{ color:#4183c4;}
 article.bookPage blockquote{ border-radius: 0.5em; margin-left: 10px;margin-right: 10px;}
-article.bookPage > div > div > ol, article.bookPage > div > div > ul:not(.reference-list){ border-radius: 0.5em;margin-left: 10px;margin-right: 10px;}
+
 h1{font-size:28px}
 h2{font-size: 26px;}
 h3{font-size: 24px;}
