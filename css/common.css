@@ -18,15 +18,16 @@ nav.topnav{ float: left;}
 
 /*底部*/
 footer{ height: 439px; background: #22618c;}
-.topshow{ height: 312px; padding-left: 5%; padding-right: 5%; }
-.topshow li a{color: #d6ecfa;}
-.topshow li{ height: 27px; background: url("img/number.png") no-repeat; font-size: 14px;}
-.topshow.ftitle{ background: none; font-size: 16px;}
-.topshow li.tico1{ background-position: 0 0}
-.topshow li.tico2{ background-position: 0 0}
-.topshow li.tico3{ background-position: 0 0}
-.topshow li.tico4{ background-position: 0 0}
-.topshow li.tico5{ background-position: 0 0}
-.topshow li.tico6{ background-position: 0 0}
+.topshow{ height: 275px; padding-top: 37px; padding-left: 5%; padding-right: 5%; }
+.ftext{ height: 187px; background: url("img/line.gif") no-repeat center right; padding-top: 35px; padding-bottom: 35px; overflow: hidden;}
+.ftext li a{color: #d6ecfa;}
+.ftext li{ height: 27px; padding-left: 19px; font-family: "宋体"; background: url("img/number.png") no-repeat; font-size: 14px;}
+.ftext li.ftitle{ background: none; font-size: 16px;font-family: "微软雅黑";}
+.ftext li.tico1{ background-position: 0 0}
+.ftext li.tico2{ background-position: 0 0}
+.ftext li.tico3{ background-position: 0 0}
+.ftext li.tico4{ background-position: 0 0}
+.ftext li.tico5{ background-position: 0 0}
+.ftext li.tico6{ background-position: 0 0}
 
 .ftextb{ background: #031523;}
