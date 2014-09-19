@@ -17,7 +17,7 @@ blockquote, body, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre,
     padding: 0;
 
 }
-.highligh,table,code, pre,article.bookPage blockquote,article h2, article h3,article h4,article h5,article h6{margin-left: 20px;margin-right: 20px;}
+
 .highlight{  margin-top: 1em;}
 table {
     background: none repeat scroll 0 0 #fff;
@@ -97,3 +97,4 @@ article.bookPage > div > ol, article.bookPage > div > ul:not(.reference-list) {
     text-shadow: 0 1px #fff;
 }
 article h1{ background:url("img/titlebg.gif") repeat scroll 0 0 #eeebe9;border-bottom:none; padding-left: 30px; height: 75px; line-height: 96px;}
+.highligh,table,code, pre,article.bookPage blockquote,article h2, article h3,article h4,article h5,article h6,p{margin-left: 20px;margin-right: 20px;}
