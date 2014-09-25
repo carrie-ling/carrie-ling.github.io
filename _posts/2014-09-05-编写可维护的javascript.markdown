@@ -19,9 +19,12 @@ jsLint只是简单查找不符合Javascritpt模式的，错误的小工具。经
 Crockford将他对javascript风格的观点分成了三个不同的部分。
 
 >“javascript风格的组成部分（第一部分）”（http://javascritp.crockford.com/style1/html），包含基本的模式和语法。
+>
 >”javascript风格的组成部分（第二部分）“（http://javascript.crockfrod.com/style2.html），包含一般性的javascript惯用法。
+>
 >”javascript编程语言的编码规范“（http://javascript.crockford.com/code.html）这个规范更加全面，从前两部分中提炼出了编程风格的精华部分，同时增补了少量的编程风格的指引；
 
+### 基本的格式化 ###
 
 {% highlight ruby %}
 def print_hi(name)
