@@ -1,9 +1,9 @@
 ---
 layout: postjs
-title:  "Welcome!"
-date:   2014-09-05 17:46:13
+title:  "编写可维护的javascript!"
+date:   2014-09-25 17:46:13
 tags: [postjs]
-categories: jekyll update
+categories: 读"编写可维护的javascript!"一书有感
 
 ---
 # 编写可维护的javascript #
