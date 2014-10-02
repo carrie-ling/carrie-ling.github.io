@@ -18,6 +18,10 @@
         {% for post in site.tags.postjquery %}
         <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
         {% endfor %}
+        <li class="leftli-title">node相关</li>
+        {% for post in site.tags.postnode %}
+        <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+        {% endfor %}
     </ul>
     <div class="links">
         <p>友情链接</p>

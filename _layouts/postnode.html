@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="{{ "/css/page2.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ "/css/markdown.css" | prepend: site.baseurl }}">
+
+<article class="contwarp pb15 bookPage">
+    <div class="content clear">
+        {{ content }}
+    </div>
+    {% include more.html %}
+</article>
