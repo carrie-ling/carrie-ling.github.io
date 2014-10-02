@@ -2,7 +2,7 @@
 layout: postnode
 title:  "node参考资料"
 date:   2014-10-2 16:46:13
-tags: [postcss]
+tags: [postnode]
 categories: 读“node.js开发指南” 整理的参考资料
 ---
 # node参考资料整理 #
