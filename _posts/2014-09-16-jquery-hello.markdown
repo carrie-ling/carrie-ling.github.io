@@ -1,36 +1,13 @@
 ---
 layout: postjquery
-title:  "hello!"
+title:  "Node!"
 date:   2014-09-16 17:46:13
 tags: [postjquery]
 categories: jekyll update
 ---
 
-# postjquery DOM概述 #
+# Node节点对象 #
 
-## 二级标题 目录##
-
-### 三级标题 1Node节点对象 ###
-
-#### 四级标题 （1）nodeName属性和nodeType属性 ####
-
-
-**强调字**
-
-    代码段
-
-> 索引文字
-
-[链接文字](http://baidu.com "链接啊")
-
-- 无序列表
-- 的范德萨
-
-关于css的文本
-
-
-----------
-## Node节点对象
 
 DOM的最小单位是节点（node），一个文档的树形结构就是由各种不同的节点组成。
 

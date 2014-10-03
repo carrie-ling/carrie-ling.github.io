@@ -42,17 +42,75 @@ jsLint只是简单查找不符合Javascritpt模式的，错误的小工具。经
 
 **很多团队选择4个空格的缩进；**
 
+尽管是悬着制表符还是空格做缩进只是一种个人偏好，但绝对不要将两者混用，这非常重要；
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+2.2 语句结尾
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+javascript的语句结尾有两种形式
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+一是用分号结束例如下代码;另一种是空格
+
+//合法的代码
+
+	var name = "Nicholas";
+	
+	function sayName(){
+		alert (name);
+	}
+
+//合法的代码但不推荐
+
+	var name = "Nicholas"
+	
+	function sayName(){
+		alert (name);
+	}
+
+2.3 行的长度
+
+单行代码最长不超多80个字符，这个数值是来源于很久之前文本编辑器的单行最多字符限制；
+
+2.4 换行
+
+当一行长度达到单行最大字符数限制时，就需要手动将一行拆成两行。通常我们会在运算符后换行，下一行会政教两个层级的缩进；
+
+	//好的做法：在运算符后换行，第二行追加两个缩进
+	callAFunction(document,element,windwo."som string value",true,123,
+			naviagator);
+	//不好的做法，第二行只有一个缩进
+	callAFunction(document,element,windwo."som string value",true,123,
+		naviagator);
+	//不好的做法，在运算符之前换行了
+	callAFunction(document,element,windwo."som string value",true,123
+		，naviagator);
+当给变量赋值时，第二行的位置应该和赋值运算符的位置保持对齐，例如：
+
+	var result = something +anotherThing +yetAnotherThing+somthingElse+
+				anotherSomethingEllse;
+
+2.5 空行
+
+一般来讲，在下面这些场景中添加空行也是不错的主意。
+
+1、在方法之间。
+
+2、在方法中的局部变量（local variable）和第一条语句之间。
+
+3、在多行或单行注释之前
+
+4、在方法内的逻辑片段之间插入空行，提高可读性。
+
+2.6 命名
+
+“计算机科学只存在两个难题：缓存失效和命名”---PhilKarlton.
+
+只要写代码，都会涉及变量和函数，因此变量和函数命名对于增强代码可读性至关重要，javasript是遵照了驼峰式大小写（Camel case）命名法，是有小写字母开始的，后续每个单词首字母大写，比如：
+
+	var thisIsMyName;
+	var anotherVariable;
+	var aVeryLongVariableName;
+
+大部分javascript程序员使用驼峰命名法来给变量和函数命名；
+
+2.6.1 变量和函数
+
